@@ -1,0 +1,48 @@
+body {
+  background-color: yellow;
+
+  text-align: center;
+
+  font-family: sans-serif;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+#unsplashImage {
+  max-height: 500px;
+
+  border: 20px solid black;
+
+  transform: rotate(0deg);
+}
+
+h1 {
+  font-size: 56px;
+}
+.imageDetails {
+  background-color: black;
+
+  margin-top: 50px;
+
+  padding: 10px;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  width: fit-content;
+}
+
+.imageDetails a {
+  color: #fff;
+}
+
+.imageDetails a:hover {
+  color: yellow;
+}
